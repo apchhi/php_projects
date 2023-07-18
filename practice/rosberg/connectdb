@@ -1,0 +1,6 @@
+admin{"host":"127.0.0.1", "username":"admin", "password":"admin", "dbname":"rosberg"};
+item1{"host":"127.0.0.1", "username":"item1", "password":"item1", "dbname":"rosberg"};
+item2{"host":"127.0.0.1", "username":"item2", "password":"item2", "dbname":"rosberg"};
+item3{"host":"127.0.0.1", "username":"item3", "password":"item3", "dbname":"rosberg"};
+item4{"host":"127.0.0.1", "username":"item4", "password":"item4", "dbname":"rosberg"};
+item5{"host":"127.0.0.1", "username":"item5", "password":"item5", "dbname":"rosberg"};

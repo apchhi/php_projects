@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Form-HTML</title>
+		<meta charset='utf-8'>
+	</head>
+	<body>
+		<form action='form.php' method='post'>
+			<input type='text' name='name'><br>
+			<input type='text' name='age'><br>
+			<input type='password' name='pass'><br>
+			<input type='hidden' name='hid' value='test'>
+
+			<input type='checkbox' name='php'>PHP<br>
+			<input type='checkbox' name='js'>JS<br>
+			<input type='checkbox' name='python'>Python<br>
+			<input type='checkbox' name='c#'>C#<br>
+
+			<input type='checkbox' name='color' value ='red'>Red<br>
+			<input type='checkbox' name='color' value='green'>Green<br>
+			<input type='checkbox' name='color' value='blue'>Blue<br>
+
+<!--SPISKI-->
+	<select name='period[]' multiple='multiple' size='3'>
+		<option >Enter time</option>
+		<option value='one'>Day</option>
+		<option value='treede'>Month</option>
+		<option value='seven'>Wheek</option>
+		<option value='treesixfive'>Age</option>
+	</select><br>
+
+	<!-- perekluchately -->
+			<input type='radio' name='slide' value ='1'>
+			<input type='radio' name='slide' value='2'>
+			<input type='radio' name='slide' value='3'>
+
+
+	
+	<!--button to send form -->
+			<input type='submit' value='To send'>
+			
+		</form>
+	</body>
+</html>
